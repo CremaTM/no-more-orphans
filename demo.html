@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <meta charSet="utf-8"/>
+        <title>NoMoreOrphans | CREMA™</title>
+        <link rel="icon" type="image/ico" href="https://cremastudio.com/img/favicon.ico"/>
+        <meta name="robots" content="index, follow"/>
+        <meta name="description" content=""/>
+        <style>
+            body {
+                margin: 0;
+                font-family: Helvetica Now Text;
+                font-weight: 400;
+                font-style: normal;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                width: 100%;
+                overflow-x: hidden;
+            }
+            .wrapper {
+                padding-bottom: 250px;
+                max-width: 760px;
+                margin: 0 auto;
+            }
+            h2.title {
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 42px;
+                font-family: Helvetica Now Text, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                letter-spacing: 0;
+                color: #000;
+                margin-bottom: .5em;
+                margin-top: 1.5em;
+            }
+            p {
+                font: normal 17.5px/25px Helvetica Now Text;
+                font-family: Helvetica Now Text, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+            input, button {
+                border: 1px solid #000;
+                border-radius: 99px;
+                padding: 10px 20px;
+                background: #fff;
+                color: #000;
+                font: 700 17.5px/25px Helvetica Now Text;
+                outline: none;
+                text-shadow: none;
+                box-shadow: none;
+            }
+            button {
+                cursor: pointer;
+            }
+            button:focus, button:hover, button:active {
+                border-color: #fff;
+                background: #000;
+                color: #fff;
+                outline: none;
+                text-shadow: none;
+                box-shadow: none;
+            }
+            button:active {
+                background: #390;
+            }
+            @media screen and (max-width: 960px) {
+                .wrapper {
+                    padding-bottom: 250px;
+                    max-width: 80%;
+                    margin: 0 auto;
+                }
+            }
+        </style>
+
+<script type="text/javascript" src="nomoreorphans.js">
+
+</script>
+
+    </head>
+    <body>
+        <div class="wrapper undefined">
+            <h2 class="title">CREMA·Lab™</h2>
+            <p contentEditable="true" class="nmo">La experimentación forma parte del ADN del estudio. CREMALab es un espacio independiente de creación, donde se desarrollan proyectos que buscan saltarse las reglas, jugar con la técnica, nuevas herramientas o dispositivos. Es el I+D+i del estudio, el lugar donde se desarrollan proyectos de innovación y diseño, que nos permite divertirnos, experimentar y descubrir soluciones que puedan ser implementadas a futuro en otros proyectos.</p>
+            <p contentEditable="true" class="nmo">Este párrafo y el primero tienen clase ".nmo", para el ejemplo de aplicar #NoMoreOrphans™ mediante un selector de clase. Solamente se aplica a los elementos que tengan aplicada la clase "nmo".</p>
+            <p contentEditable="true">La experimentación forma parte del ADN del estudio. CREMALab es un espacio independiente de creación, donde se desarrollan proyectos que buscan saltarse las reglas, jugar con la técnica, nuevas herramientas o dispositivos. Es el I+D+i del estudio, el lugar donde se desarrollan proyectos de innovación y diseño, que nos permite divertirnos, experimentar y descubrir soluciones que puedan ser implementadas a futuro en otros proyectos.</p>
+            <p contentEditable="true">Este párrafo y el anterior no tienen ninguna clase. Se han dejado dos párrafos sin clase, no porque sean un poco barriobajeros, sino para que se pueda ver cómo funciona #NoMoreOrphans™ cuando se aplica a una etiqueta entera, como sería aplicarlo a todos los "&lt;p&gt;" (párrafos) de la página.</p>
+            <p><strong>Cambia el tamaño de la pantalla para comprobar que ninguna línea se queda nunca con una huérfana exceptp los que tengan menos de 4 líneas. (Puedes editar las líneas de texto)</strong></p>
+        </div>
+    </body>
+    <script>
+        window.onresize = function (){
+            noMoreOrphans('p')
+        }
+    </script>
+</html>
