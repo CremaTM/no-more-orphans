@@ -1,5 +1,5 @@
 # NoMoreOrphans
-Librería JS vanilla para eliminar las huérfanas en cualquier elemento de una web. No necesita jQuery
+Librería JS vanilla para eliminar las huérfanas en cualquier elemento de una web. No necesita jQuery.
 
 ## Como usarlo
 ```html
