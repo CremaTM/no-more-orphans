@@ -11,7 +11,7 @@ Librería JS vanilla para eliminar las huérfanas en cualquier elemento de una w
 ```
 
 ```html
-    </script>
+    <script>
         //También puedes ejecutarlo al cargar todo el contenido o cuando se reescala la pantall
         window.onresize = function (){
             noMoreOrphans('p')
