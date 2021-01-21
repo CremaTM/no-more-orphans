@@ -7,7 +7,7 @@ Librería JS vanilla para eliminar las huérfanas en cualquier elemento de una w
 
 Descargar el script minificado o sin minificar y úsalo:
 ```html
-<script type="text/javascript" src="nomoreorphans.min.js">
+<script type="text/javascript" src="nomoreorphans.min.js"></script>
 <script>
     //Pasa como parámetro el selector al que quieras aplicar la librería ('p', '.clase', '#id', 'p.clase')
     noMoreOrphans('p')
