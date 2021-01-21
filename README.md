@@ -1,6 +1,8 @@
 # NoMoreOrphans
 Librería JS vanilla para eliminar las huérfanas en cualquier elemento de una web. No necesita jQuery.
 
+![Demostración](http://api.cremastudio.com/wp-content/themes/crema/img/test.gif)
+
 ## Como usarlo
 ```html
 <script type="text/javascript" src="nomoreorphans.min.js">
