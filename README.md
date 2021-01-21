@@ -4,6 +4,8 @@ Librería JS vanilla para eliminar las huérfanas en cualquier elemento de una w
 ![Demostración](http://api.cremastudio.com/wp-content/themes/crema/img/test.gif)
 
 ## Como usarlo
+
+Descargar el script minificado o sin minificar y úsalo:
 ```html
 <script type="text/javascript" src="nomoreorphans.min.js">
 <script>
@@ -12,13 +14,10 @@ Librería JS vanilla para eliminar las huérfanas en cualquier elemento de una w
 </script>
 ```
 
+Puedes ejecutarlo con algún evento como onResize para que se ejecute al cambiar el tamaño de la pantalla
 ```html
 <script>
-    //También puedes ejecutarlo al cargar todo el contenido o cuando se reescala la pantall
-    window.onresize = function (){
-        noMoreOrphans('p')
-    }
-    //o
+    //También puedes ejecutarlo al cargar todo el contenido o cuando se reescala la pantalla
     window.onresize = function (){
         noMoreOrphans('p')
     }
